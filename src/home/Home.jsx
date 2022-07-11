@@ -1,9 +1,10 @@
-import React from 'react'
+import { AcUnit } from "@material-ui/icons"
+import "./home.css"
 
 const Home = () => {
   return (
     <div className="home">
-      hello
+      <AcUnit/>
     </div>
   )
 }
