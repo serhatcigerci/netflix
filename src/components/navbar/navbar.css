@@ -1,7 +1,14 @@
 .navbar {
   color: white;
+  font-size: 14px;
 }
 
 .left > img {
   height: 25px;
+}
+
+.container {
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
 }
