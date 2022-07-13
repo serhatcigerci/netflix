@@ -1,6 +1,15 @@
 .navbar {
+  width: 100%;
   color: white;
   font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(to top, transparent 0%, #000 50%);
+}
+
+.navbar.scrolled {
+  background-color: var(--main-color);
 }
 
 .container {
@@ -11,52 +20,52 @@
   height: 70px;
 }
 
-.left {
+.container .left {
   display: flex;
   align-items: center;
 }
 
-.left > img {
+.container .left img {
   height: 25px;
   margin-right: 40px;
 }
 
-.left > span {
+.container .left span {
   margin-right: 20px;
   cursor: pointer;
 }
 
-.right {
+.container .right {
   display: flex;
   align-items: center;
 }
 
-.right > img {
-  height: 30px;
+.container .right .icon {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.container .right img {
   width: 30px;
+  height: 30px;
   border-radius: 5px;
   object-fit: cover;
   cursor: pointer;
 }
 
-.right > .icon {
-  margin: 0px 15px;
-  cursor: pointer;
-}
-
-.profile > .options {
+.container .right .profile .options {
   display: none;
   background-color: var(--main-color);
   border-radius: 5px;
 }
 
-.profile:hover > .options {
+.container .right .profile span {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container .right .profile:hover .options {
   display: flex;
   flex-direction: column;
   position: absolute;
-}
-
-.right > .profile > .options > span {
-  padding: 10px;
-  cursor: pointer;
 }
