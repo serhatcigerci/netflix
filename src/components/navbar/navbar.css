@@ -3,12 +3,51 @@
   font-size: 14px;
 }
 
-.left > img {
-  height: 25px;
-}
-
 .container {
   padding: 0px 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left > img {
+  height: 25px;
+  margin-right: 40px;
+}
+
+.left > span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right > img {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.right > .icon {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.profile > .options {
+  display: none;
+}
+
+.profile:hover > .options {
+  display: flex;
 }

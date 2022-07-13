@@ -1,4 +1,4 @@
-import { Notifications, Search } from "@material-ui/icons"
+import { ArrowDropDown, Notifications, Search } from "@material-ui/icons"
 import "./navbar.css"
 
 const Navbar = () => {
@@ -14,9 +14,18 @@ const Navbar = () => {
           <span>My List</span>
         </div>
         <div className="right">
-          <Search/>
+          <Search className="icon"/>
           <span>KID</span>
-          <Notifications/>
+          <Notifications className="icon"/>
+          <img src="/assets/images/shrek.png" alt="" />
+          <div className="profile">
+
+            <ArrowDropDown className="icon"/>
+            <div className="options">
+              <span>Settings</span>
+              <span>Logout</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
