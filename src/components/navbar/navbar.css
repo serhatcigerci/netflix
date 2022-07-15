@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   z-index: 999;
-  background: linear-gradient(to top, transparent 0%, #000 50%);
+  background: linear-gradient(to top, transparent 0%, #000 99%);
 }
 
 .navbar.scrolled {
@@ -20,32 +20,32 @@
   height: 70px;
 }
 
-.container .left {
+.left {
   display: flex;
   align-items: center;
 }
 
-.container .left img {
+.left img {
   height: 25px;
   margin-right: 40px;
 }
 
-.container .left span {
+.left span {
   margin-right: 20px;
   cursor: pointer;
 }
 
-.container .right {
+.right {
   display: flex;
   align-items: center;
 }
 
-.container .right .icon {
+.right .icon {
   margin: 0px 15px;
   cursor: pointer;
 }
 
-.container .right img {
+.right img {
   width: 30px;
   height: 30px;
   border-radius: 5px;
@@ -53,18 +53,18 @@
   cursor: pointer;
 }
 
-.container .right .profile .options {
+.right .profile .options {
   display: none;
   background-color: var(--main-color);
   border-radius: 5px;
 }
 
-.container .right .profile span {
+.right .profile span {
   padding: 10px;
   cursor: pointer;
 }
 
-.container .right .profile:hover .options {
+.right .profile:hover .options {
   display: flex;
   flex-direction: column;
   position: absolute;
