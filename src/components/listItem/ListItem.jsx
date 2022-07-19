@@ -1,6 +1,8 @@
+import './listItem.css'
+
 const ListItem = () => {
   return (
-    <div>ListItem</div>
+    <div className="listItem">item</div>
   )
 }
 

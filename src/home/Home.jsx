@@ -9,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Featured/>
       <List />
+      <List />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { ArrowBackIosOutlined, ArrowForwardIosOutlined } from '@material-ui/icons'
-import React from 'react'
+import './list.css'
+import ListItem from '../listItem/ListItem'
 
 const List = () => {
   return (
@@ -8,7 +9,18 @@ const List = () => {
       <div className="wrapper">
         <ArrowBackIosOutlined/>
         <div className="container">
-          
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
+          <ListItem/>
         </div>
         <ArrowForwardIosOutlined/>
       </div>
