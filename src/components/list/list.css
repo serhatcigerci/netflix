@@ -10,20 +10,37 @@
   margin-left: 50px;
 }
 
-.wrapper {
+.list .wrapper {
   position: relative;
-}
-
-.wrapper .container {
-  margin-left: 50px;
-  display: flex;
-  width: max-content;
 }
 
 .wrapper .sliderArrow {
   width: 50px;
   height: 100%;
-  background-color: rgb(61, 59, 59, 0.5);
+  background-color: #161616;
   color: white;
   position: absolute;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+.wrapper .sliderArrow.left {
+  left: 0;
+}
+
+.wrapper .sliderArrow.right {
+  right: 0;
+}
+
+.wrapper .container {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  margin-top: 50px;
+  width: max-content;
+  transform: translateX(0px);
+  transition: all 1s ease;
 }
