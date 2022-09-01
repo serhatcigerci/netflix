@@ -7,7 +7,7 @@ const List = () => {
     <div className="list">
       <span className="listTitle">Continue to watch</span>
       <div className="wrapper">
-        <ArrowBackIosOutlined/>
+        <ArrowBackIosOutlined className="sliderArrow left"/>
         <div className="container">
           <ListItem/>
           <ListItem/>
@@ -22,7 +22,7 @@ const List = () => {
           <ListItem/>
           <ListItem/>
         </div>
-        <ArrowForwardIosOutlined/>
+        <ArrowForwardIosOutlined className="sliderArrow right"/>
       </div>
     </div>
   )
