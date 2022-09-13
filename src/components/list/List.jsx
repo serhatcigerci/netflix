@@ -1,7 +1,7 @@
 import { ArrowBackIosOutlined, ArrowForwardIosOutlined } from '@material-ui/icons'
 import './list.css'
 import ListItem from '../listItem/ListItem'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 const List = () => {
   const [slideNumber, setSlideNumber] = useState(0)
